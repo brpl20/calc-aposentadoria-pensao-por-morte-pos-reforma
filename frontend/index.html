@@ -1,0 +1,15 @@
+<link rel=stylesheet href="./styles.css">
+<h1 class="title">Calculo de Aposentadoria</h1>
+<div class="container">
+  <div class="row">
+    <label for="ano" class="label">Ano da Concessão</label>
+    <input id="ano" class="textfield" type="number" placeholder="2019 | 2020 | 2021" />
+  </div>
+  <div class="row">
+    <label for="valor" class="label">Valor do Benefício</label>
+    <input id="valor" class="textfield" type="number" placeholder="R$"/>
+  </div> 
+  <button onclick="calcular()" class="button">Calcular</button>
+</div>
+<h2 class="result-value"><span id="result">0</span></h2>
+<script src="./main.js"></script>
